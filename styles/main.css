@@ -151,3 +151,6 @@ form button {
   cursor: pointer;
   font-weight: bold;
 }
+body {
+  background-color: red !important;
+}
