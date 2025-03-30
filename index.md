@@ -1,53 +1,102 @@
----
-layout: default
-title: Chapter 1: Cosmic Creation
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Songs of Enoch – Chapter 1</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=DM+Serif+Text&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    
+    <!-- Left Menu -->
+    <div class="menu-left">
+      <h1>The Songs of Enoch</h1>
+      <div class="creator">Created by:<br><span>Eric Young</span></div>
+      <a href="index.html">Home / Chapter 1</a>
+      <a href="chapter2.html">Chapter 2</a>
+      <a href="chapter3.html">Chapter 3</a>
+      <a href="chapter4.html">Chapter 4</a>
+    </div>
 
-<div class="intro-quote">
-In the beginning, when the cosmos sang the Song of Death,<br />
-Enoch walked the path between light and shadow.
-</div>
+    <!-- Main Content -->
+    <div class="main-content">
 
-<div class="comic-page">
-  <img src="assets/images/cover.jpg" alt="The Songs of Enoch Cover" />
-</div>
+      <div class="hero-quote">
+        In the beginning, when the cosmos sang the Song of Death,<br>
+        Enoch walked the path between light and shadow.
+      </div>
 
-<p class="scroll-note">Scroll down to read Chapter 1</p>
+      <img src="assets/images/cover.jpg" alt="The Songs of Enoch Cover" />
 
-<div class="comic-page"><img src="assets/images/ch1_pg1.jpg" alt="Page 1" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg2.jpg" alt="Page 2" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg3.jpg" alt="Page 3" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg4.jpg" alt="Page 4" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg5.jpg" alt="Page 5" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg6.jpg" alt="Page 6" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg7.jpg" alt="Page 7" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg8.jpg" alt="Page 8" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg9.jpg" alt="Page 9" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg10.jpg" alt="Page 10" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg11.jpg" alt="Page 11" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg12.jpg" alt="Page 12" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg13.jpg" alt="Page 13" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg14.jpg" alt="Page 14" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg15.jpg" alt="Page 15" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg16.jpg" alt="Page 16" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg17.jpg" alt="Page 17" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg18.jpg" alt="Page 18" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg19.jpg" alt="Page 19" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg20.jpg" alt="Page 20" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg21.jpg" alt="Page 21" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg22.jpg" alt="Page 22" /></div>
-<div class="comic-page"><img src="assets/images/ch1_pg23.jpg" alt="Page 23" /></div>
+      <div class="scroll-note">Scroll down to read Chapter 1</div>
 
-<div class="nav-section" style="text-align: center; margin-top: 2rem;">
-  <a class="nav-menu" href="/chapter2" style="font-size: 1.2rem; font-weight: bold; color: #9fefce;">Continue to Chapter 2</a>
-</div>
+      <!-- Chapter 1 Pages -->
+      <div class="chapter-pages">
+        <!-- Pages 1 to 23 -->
+        <!-- You can generate this with a loop in Jekyll later -->
+        <img src="assets/images/ch1_pg1.jpg" alt="Page 1" />
+        <img src="assets/images/ch1_pg2.jpg" alt="Page 2" />
+        <img src="assets/images/ch1_pg3.jpg" alt="Page 3" />
+        <img src="assets/images/ch1_pg4.jpg" alt="Page 4" />
+        <img src="assets/images/ch1_pg5.jpg" alt="Page 5" />
+        <img src="assets/images/ch1_pg6.jpg" alt="Page 6" />
+        <img src="assets/images/ch1_pg7.jpg" alt="Page 7" />
+        <img src="assets/images/ch1_pg8.jpg" alt="Page 8" />
+        <img src="assets/images/ch1_pg9.jpg" alt="Page 9" />
+        <img src="assets/images/ch1_pg10.jpg" alt="Page 10" />
+        <img src="assets/images/ch1_pg11.jpg" alt="Page 11" />
+        <img src="assets/images/ch1_pg12.jpg" alt="Page 12" />
+        <img src="assets/images/ch1_pg13.jpg" alt="Page 13" />
+        <img src="assets/images/ch1_pg14.jpg" alt="Page 14" />
+        <img src="assets/images/ch1_pg15.jpg" alt="Page 15" />
+        <img src="assets/images/ch1_pg16.jpg" alt="Page 16" />
+        <img src="assets/images/ch1_pg17.jpg" alt="Page 17" />
+        <img src="assets/images/ch1_pg18.jpg" alt="Page 18" />
+        <img src="assets/images/ch1_pg19.jpg" alt="Page 19" />
+        <img src="assets/images/ch1_pg20.jpg" alt="Page 20" />
+        <img src="assets/images/ch1_pg21.jpg" alt="Page 21" />
+        <img src="assets/images/ch1_pg22.jpg" alt="Page 22" />
+        <img src="assets/images/ch1_pg23.jpg" alt="Page 23" />
+      </div>
 
-<div class="nav-section" style="margin-top: 2rem;">
-  <h2 style="color: #9fefce;">Leave a Comment</h2>
-  <form>
-    <input type="text" placeholder="Your Name" style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;" />
-    <textarea placeholder="Share your thoughts..." style="width: 100%; padding: 0.5rem; height: 150px;"></textarea>
-    <br />
-    <button type="submit" style="margin-top: 1rem; padding: 0.5rem 1rem; background-color: #9fefce; border: none; font-weight: bold;">Post Comment</button>
-  </form>
-</div>
+      <!-- Next Chapter Button -->
+      <div style="text-align: center;">
+        <a href="chapter2.html" class="chapter-button">Continue to Chapter 2</a>
+      </div>
+
+      <!-- Comment Section -->
+      <div class="comment-section">
+        <h3>Leave a Comment</h3>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <textarea rows="5" placeholder="Share your thoughts..." required></textarea>
+          <button type="submit">Post Comment</button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Right Menu -->
+    <div class="menu-right">
+      <div class="menu-box">
+        <a href="#">About</a>
+        <a href="#">Characters</a>
+        <a href="#">World Lore</a>
+        <a href="#">Sketchbook</a>
+      </div>
+      <div class="menu-box">
+        <div style="text-align:center; font-weight: bold; color:#67c9a7; font-size: 18px; margin-bottom: 10px;">Follow Eric</div>
+        <a href="#">Patreon</a>
+        <a href="#">X</a>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Webtoons</a>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
