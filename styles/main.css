@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
   background-color: #0d0d0d;
   color: #f0f0f0;
@@ -15,6 +16,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Layout Wrapper */
 .layout {
   display: flex;
   min-height: 100vh;
@@ -28,9 +30,11 @@ a:hover {
   border: 1px solid rgba(159, 239, 206, 0.2);
   border-radius: 16px;
   position: sticky;
-  top: 0;
+  top: 1rem;
   height: fit-content;
   align-self: flex-start;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar.left {
@@ -41,12 +45,12 @@ a:hover {
   margin-right: 1rem;
 }
 
-/* Title */
+/* Title + Created By */
 .site-title {
   font-family: 'Cinzel', serif;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .site-creator {
@@ -56,16 +60,25 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-/* Navigation Menu */
+/* Navigation */
 .nav-menu {
   display: block;
-  margin: 0.8rem 0;
+  margin: 0.6rem 0;
   font-weight: bold;
   font-size: 1rem;
 }
 
+/* Section wrappers */
 .nav-section {
   margin-bottom: 2rem;
+}
+
+.follow-header {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  color: #9fefce;
+  margin-bottom: 1rem;
 }
 
 /* Page Content */
@@ -76,7 +89,7 @@ a:hover {
   padding: 0 1rem;
 }
 
-/* Comic pages */
+/* Comic Pages */
 .comic-page {
   margin-bottom: 0;
 }
@@ -86,17 +99,17 @@ a:hover {
   display: block;
 }
 
-/* Intro text */
+/* Intro Quote */
 .intro-quote {
   font-family: 'Cinzel', serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   margin: 2rem 0 1rem;
   color: #ffffff;
   font-weight: bold;
 }
 
-/* Scroll note */
+/* Scroll Note */
 .scroll-note {
   text-align: center;
   color: #9fefce;
@@ -104,15 +117,37 @@ a:hover {
   margin: 1rem 0 2rem;
 }
 
-/* Comments form */
+/* Chapter Button */
+.button-style {
+  display: inline-block;
+  border: 1px solid #9fefce;
+  color: #9fefce;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  margin: 2rem auto;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+/* Comment Form */
 form input,
 form textarea {
   background-color: #111;
   color: #fff;
   border: 1px solid #333;
   border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
 form button {
+  background-color: #9fefce;
+  color: #000;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
   cursor: pointer;
+  font-weight: bold;
 }
