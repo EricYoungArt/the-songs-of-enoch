@@ -1,156 +1,162 @@
-/* Global Styles */
-body {
-  background-color: #0d0d0d;
-  color: #f0f0f0;
-  font-family: 'Segoe UI', sans-serif;
+/* Base Reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-a {
-  color: #9fefce;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0e0e0e;
+  color: #f0f0f0;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=DM+Serif+Text&display=swap');
+
+h1, h2, h3, h4 {
+  font-family: 'Cinzel', serif;
+}
+
+p, a, li, input, textarea, button {
+  font-family: 'DM Serif Text', serif;
+}
+
+/* Layout */
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.menu-left,
+.menu-right {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #67c9a7;
+  border-radius: 12px;
+  background-color: #111;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.menu-left a,
+.menu-right a {
+  display: block;
+  color: #67c9a7;
   text-decoration: none;
+  margin-bottom: 12px;
+  font-weight: bold;
 }
 
-a:hover {
+.menu-left a:hover,
+.menu-right a:hover {
   text-decoration: underline;
 }
 
-/* Layout Wrapper */
-.layout {
-  display: flex;
-  min-height: 100vh;
-}
-
-/* Sidebars */
-.sidebar {
-  width: 200px;
-  padding: 1.5rem;
-  background-color: #111111;
-  border: 1px solid rgba(159, 239, 206, 0.2);
-  border-radius: 16px;
-  position: sticky;
-  top: 1rem;
-  height: fit-content;
-  align-self: flex-start;
-  display: flex;
-  flex-direction: column;
-}
-
-.sidebar.left {
-  margin-left: 1rem;
-}
-
-.sidebar.right {
-  margin-right: 1rem;
-}
-
-/* Title + Created By */
-.site-title {
+/* Title */
+.menu-left h1 {
   font-family: 'Cinzel', serif;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 0.25rem;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 8px;
 }
 
-.site-creator {
+.menu-left .creator {
   font-style: italic;
-  font-size: 0.9rem;
-  color: #9fefce;
-  margin-bottom: 2rem;
+  font-size: 14px;
+  color: #67c9a7;
+  margin-bottom: 20px;
 }
 
-/* Navigation */
-.nav-menu {
-  display: block;
-  margin: 0.6rem 0;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-/* Section wrappers */
-.nav-section {
-  margin-bottom: 2rem;
-}
-
-.follow-header {
-  font-size: 1.1rem;
-  font-weight: bold;
+/* Hero text */
+.hero-quote {
+  font-family: 'Cinzel', serif;
+  font-size: 22px;
   text-align: center;
-  color: #9fefce;
-  margin-bottom: 1rem;
-}
-
-/* Page Content */
-.content {
-  flex: 1;
+  margin: 40px auto 20px;
   max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  color: white;
 }
 
-/* Comic Pages */
-.comic-page {
+.scroll-note {
+  text-align: center;
+  margin: 20px 0 40px;
+  font-size: 16px;
+  color: #67c9a7;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main-content img {
+  width: 100%;
+  display: block;
   margin-bottom: 0;
 }
 
-.comic-page img {
-  width: 100%;
-  display: block;
-}
-
-/* Intro Quote */
-.intro-quote {
-  font-family: 'Cinzel', serif;
-  font-size: 1.4rem;
-  text-align: center;
-  margin: 2rem 0 1rem;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-/* Scroll Note */
-.scroll-note {
-  text-align: center;
-  color: #9fefce;
-  font-weight: bold;
-  margin: 1rem 0 2rem;
-}
-
-/* Chapter Button */
-.button-style {
+/* Chapter Navigation Button */
+.chapter-button {
   display: inline-block;
-  border: 1px solid #9fefce;
-  color: #9fefce;
-  padding: 0.6rem 1.2rem;
-  border-radius: 12px;
-  margin: 2rem auto;
-  text-align: center;
+  margin: 40px auto;
+  padding: 10px 20px;
   font-weight: bold;
-  background-color: transparent;
+  background-color: #0e0e0e;
+  border: 2px solid #67c9a7;
+  color: #67c9a7;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
 }
 
-/* Comment Form */
-form input,
-form textarea {
-  background-color: #111;
-  color: #fff;
-  border: 1px solid #333;
-  border-radius: 4px;
-  padding: 0.5rem;
+.chapter-button:hover {
+  background-color: #67c9a7;
+  color: #0e0e0e;
+}
+
+/* Comments */
+.comment-section {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.comment-section h3 {
+  color: #67c9a7;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
   width: 100%;
-  margin-bottom: 1rem;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #111;
+  border: 1px solid #333;
+  color: #fff;
+  border-radius: 6px;
 }
 
-form button {
-  background-color: #9fefce;
+button[type="submit"] {
+  background: #67c9a7;
   color: #000;
+  padding: 8px 16px;
+  font-weight: bold;
   border: none;
-  padding: 0.5rem 1rem;
   border-radius: 6px;
   cursor: pointer;
-  font-weight: bold;
 }
-body {
-  background-color: red !important;
+
+button[type="submit"]:hover {
+  background: #5ebd99;
 }
