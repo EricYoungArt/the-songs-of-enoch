@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  padding: 1.5rem;
+  background-color: #111111;
+  border: 1px solid rgba(159, 239, 206, 0.2);
+  border-radius: 16px;
+  min-height: 100vh;
+}
+
+.sidebar.left {
+  border-right: none;
+}
+
+.sidebar.right {
+  border-left: none;
+  margin-left: auto;
+}
+
+.nav-logo {
+  font-family: 'Uncial Antiqua', serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.creator-credit {
+  color: #9fefce;
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.nav-menu a {
+  color: #d5fdf1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+.nav-section {
+  border: 1px solid rgba(159, 239, 206, 0.3);
+  border-radius: 16px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav-title {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #9fefce;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.intro-quote {
+  font-family: 'Uncial Antiqua', serif;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.scroll-note {
+  text-align: center;
+  font-size: 1rem;
+  color: #9fefce;
+  margin: 2rem 0;
+}
+
+.comic-page {
+  margin: 0;
+  padding: 0;
+}
+
+.comic-page img {
+  width: 100%;
+  display: block;
+  margin: 0;
+  border: none;
+}
