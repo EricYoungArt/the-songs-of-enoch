@@ -18,8 +18,9 @@ body {
   min-height: 100vh;
 }
 
-.sidebar.left {
-  border-right: none;
+.sidebar {
+  position: sticky;
+  top: 0;
 }
 
 .sidebar.right {
