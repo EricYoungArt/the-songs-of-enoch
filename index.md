@@ -4,8 +4,12 @@ title: Chapter 1: Cosmic Creation
 ---
 
 <div class="intro-quote">
-In the beginning, when the cosmos sang the song of death,<br />
+In the beginning, when the cosmos sang the Song of Death,<br />
 Enoch walked the path between light and shadow.
+</div>
+
+<div class="comic-page">
+  <img src="assets/images/cover.jpg" alt="The Songs of Enoch Cover" />
 </div>
 
 <p class="scroll-note">Scroll down to read Chapter 1</p>
@@ -34,11 +38,10 @@ Enoch walked the path between light and shadow.
 <div class="comic-page"><img src="assets/images/ch1_pg22.jpg" alt="Page 22" /></div>
 <div class="comic-page"><img src="assets/images/ch1_pg23.jpg" alt="Page 23" /></div>
 
-<div class="nav-section" style="text-align: center;">
+<div class="nav-section" style="text-align: center; margin-top: 2rem;">
   <a class="nav-menu" href="/chapter2" style="font-size: 1.2rem; font-weight: bold; color: #9fefce;">Continue to Chapter 2</a>
 </div>
 
-<!-- Comment Section -->
 <div class="nav-section" style="margin-top: 2rem;">
   <h2 style="color: #9fefce;">Leave a Comment</h2>
   <form>
@@ -48,4 +51,3 @@ Enoch walked the path between light and shadow.
     <button type="submit" style="margin-top: 1rem; padding: 0.5rem 1rem; background-color: #9fefce; border: none; font-weight: bold;">Post Comment</button>
   </form>
 </div>
-
