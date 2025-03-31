@@ -53,8 +53,18 @@ body {
 
 
 .menu-box a {
-  text-align: left;
+  display: block;
+  color: #67c9a7;
+  text-decoration: none;
+  margin: 6px 0;
+  font-weight: bold;
+  transition: color 0.2s ease;
 }
+
+.menu-box a:hover {
+  color: #8fffd3;
+}
+
 
 .menu-box div {
   text-align: center;
@@ -146,4 +156,12 @@ h1 {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
+}
+a {
+  color: #67c9a7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8fffd3;
 }
