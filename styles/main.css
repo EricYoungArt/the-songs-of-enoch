@@ -10,9 +10,10 @@ body {
   justify-content: space-between;
 }
 
-.menu-left, .menu-right {
-  position: sticky;
-  top: 0;
+.menu-left {
+  position: fixed;
+  top: 20px;
+  left: 20px;
   width: 180px;
   background-color: #111;
   padding: 20px;
@@ -21,15 +22,16 @@ body {
   font-size: 14px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 
-.menu-left a,
-.menu-right a {
-  display: block;
-  color: #67c9a7;
-  margin: 5px 0;
-  text-decoration: none;
+.menu-right {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .menu-left a:hover,
@@ -46,9 +48,9 @@ body {
   padding: 15px;
   border: 1px solid #67c9a7;
   border-radius: 10px;
-  margin-bottom: 20px;
   width: 100%;
 }
+
 
 .menu-box a {
   text-align: left;
