@@ -23,6 +23,19 @@ body {
   display: flex;
   flex-direction: column;
 }
+.menu-left a {
+  display: block;
+  color: #67c9a7;
+  text-decoration: none;
+  margin: 6px 0;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.2s ease;
+}
+
+.menu-left a:hover {
+  color: #8fffd3;
+}
 
 .menu-right {
   position: fixed;
