@@ -24,6 +24,19 @@ body {
   align-items: flex-start;
 }
 
+.menu-left a,
+.menu-right a {
+  display: block;
+  color: #67c9a7;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+.menu-left a:hover,
+.menu-right a:hover {
+  text-decoration: underline;
+}
+
 .menu-right {
   align-items: flex-end;
 }
@@ -33,15 +46,11 @@ body {
   padding: 15px;
   border: 1px solid #67c9a7;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 100%;
 }
 
 .menu-box a {
-  display: block;
-  color: #67c9a7;
-  margin: 5px 0;
-  text-decoration: none;
   text-align: left;
 }
 
