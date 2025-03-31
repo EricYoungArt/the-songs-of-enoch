@@ -14,12 +14,15 @@ body {
 .wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 /* Left Menu */
 .menu-left {
   position: sticky;
-  top: 0;
+  top: 20px;
+  align-self: flex-start;
   width: 200px;
   background-color: #111;
   padding: 20px;
@@ -27,9 +30,8 @@ body {
   border: 1px solid #67c9a7;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  margin: 10px;
   font-family: 'DM Serif Text', serif;
+  margin: 20px;
 }
 
 .menu-left h1 {
@@ -56,20 +58,20 @@ body {
 /* Right Menu */
 .menu-right {
   position: sticky;
-  top: 0;
+  top: 20px;
+  align-self: flex-start;
   width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+}
+
+.menu-box {
   background-color: #111;
   padding: 20px;
   border-radius: 12px;
   border: 1px solid #67c9a7;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin: 10px;
-}
-
-.menu-box {
-  margin-bottom: 30px;
 }
 
 .menu-box a {
