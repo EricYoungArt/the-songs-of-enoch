@@ -222,3 +222,40 @@ a:hover {
 .menu-box a:hover {
   color: #8fffd3;
 }
+/* === Font Style Helpers === */
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-imfell {
+  font-family: 'IM Fell DW Pica', serif;
+}
+
+.font-dmserif {
+  font-family: 'DM Serif Text', serif;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-uncial {
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+/* Example Text Sizes */
+.text-small {
+  font-size: 14px;
+}
+
+.text-medium {
+  font-size: 18px;
+}
+
+.text-large {
+  font-size: 22px;
+}
+
+.text-xl {
+  font-size: 28px;
+}
