@@ -255,6 +255,18 @@ a:hover {
   transition: opacity 0.3s ease;
   z-index: 1000;
 }
+.back-to-top {
+  text-align: right;
+  margin-top: 40px;
+  font-size: 14px;
+}
+.back-to-top a {
+  color: #67c9a7;
+  text-decoration: none;
+}
+.back-to-top a:hover {
+  text-decoration: underline;
+}
 
 .back-to-top:hover {
   opacity: 1;
