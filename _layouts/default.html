@@ -3,25 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/main.css" />
+  <title>{{ page.title }}</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=DM+Serif+Text&family=IM+Fell+DW+Pica&family=Playfair+Display&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/styles/main.css" />
+
+  <!-- Favicon (Optional) -->
+  <!-- <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon"> -->
 </head>
+
 <body>
-  <div class="layout">
-
-    <aside class="sidebar left">
-      {% include left-sidebar.html %}
-    </aside>
-
-    <main class="content">
-      {{ content }}
-    </main>
-
-    <aside class="sidebar right">
-      {% include right-sidebar.html %}
-    </aside>
-
-  </div>
+  {{ content }}
 </body>
 </html>
