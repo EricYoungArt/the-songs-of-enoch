@@ -240,6 +240,25 @@ a:hover {
   text-align: center;
   padding: 0 20px;
 }
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #67c9a7;
+  color: #0a0a0a;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'DM Serif Text', serif;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.back-to-top:hover {
+  opacity: 1;
+}
 
 /* === Font Style Helpers === */
 .font-cinzel {
