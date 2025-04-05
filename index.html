@@ -1,45 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Songs of Enoch – Chapter 1</title>
-  <link rel="stylesheet" href="styles/main.css" />
- <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=DM+Serif+Text&family=IM+Fell+DW+Pica&family=Playfair+Display&family=Uncial+Antiqua&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="wrapper">
-    
-    <!-- Left Menu -->
-    <div class="menu-left font-cinzel text-large">
-      <h1 class="text-xl">The Songs of Enoch</h1>
-      <div class="creator text-medium">Created by:<br><span>Eric Young</span></div>
-      <a href="index.html">Home / Chapter 1</a>
-      <a href="chapter2.html">Chapter 2</a>
-      <a href="chapter3.html">Chapter 3</a>
-      <a href="chapter4.html">Chapter 4</a>
-    </div>
+---
+layout: default
+title: "The Songs of Enoch – Chapter 1"
+---
 
-    <!-- Main Content -->
-    <div class="main-content">
+<div class="wrapper">
 
-      <div class="hero-quote font-uncial text-large">
-  In the beginning, when the cosmos sang the Song of Death,<br>
-  Enoch walked the path between light and shadow.
-</div>
-<hr class="hero-divider" />
+  {% include left-sidebar.html %}
 
-      <div class="hero-description">
-  <p>
-    <em>The Songs of Enoch</em> is a mythic graphic narrative born from a deep inner calling to reimagine the origin of life, humanity, and the divine. Through hand drawn visuals and poetic storytelling, it retells the Genesis creation story through a shamanic lens—unfolding through the eyes of Enoch, the firstborn son of Cain, witness to the fall of man and the mysteries that shaped the cosmos.
-  </p>
-</div>
+  <!-- Main Content -->
+  <div class="main-content">
 
+    {% include header.html %}
 
-      <img src="assets/images/cover.jpg" alt="The Songs of Enoch Cover" />
+    <img src="assets/images/cover.jpg" alt="The Songs of Enoch Cover" />
 
-      <div class="scroll-note">Scroll down to read Chapter 1</div>
+    <div class="scroll-note">Scroll down to read Chapter 1</div>
 
       <!-- Chapter 1 Pages -->
       <div class="chapter-pages">
@@ -69,45 +44,11 @@
         <img src="assets/images/ch1_pg22.jpg" alt="Page 22" />
         <img src="assets/images/ch1_pg23.jpg" alt="Page 23" />
       </div>
+{% include footer.html %}
 
-      <!-- Next Chapter Button -->
-      <div style="text-align: center;">
-        <a href="chapter2.html" class="chapter-button">Continue to Chapter 2</a>
-      </div>
-
-      <!-- Comment Section -->
-      <div class="comment-section">
-        <h3>Leave a Comment</h3>
-        <form>
-          <input type="text" placeholder="Your Name" required />
-          <textarea rows="5" placeholder="Share your thoughts..." required></textarea>
-          <button type="submit">Post Comment</button>
-        </form>
-      </div>
-
-    </div>
-
-    <!-- Right Menu -->
-    <div class="menu-right">
-  <div class="menu-box">
-    <a href="#">About</a>
-    <a href="#">Characters</a>
-    <a href="#">World Lore</a>
-    <a href="#">Sketchbook</a>
   </div>
-  <div class="menu-box">
-    <div style="text-align:center; font-cinzel font-weight: bold; color:#67c9a7; font-size: 28px; margin-bottom: 10px;">Follow Eric:</div>
-    <a href="#">Patreon</a>
-    <a href="#">X</a>
-    <a href="#">Instagram</a>
-    <a href="#">YouTube</a>
-    <a href="#">Newsletter</a>
-    <a href="#">Webtoons</a>
-  </div>
+
+  {% include right-sidebar.html %}
+
 </div>
-
-
-  </div>
-  <a href="#" class="back-to-top">↑ Back to Top</a>
-</body>
-</html>
+     
