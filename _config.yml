@@ -3,4 +3,5 @@ description: A mythic webcomic by Eric Young
 theme: minima
 plugins:
   - jekyll-feed
+# Trigger rebuild
 
