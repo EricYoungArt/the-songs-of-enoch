@@ -222,6 +222,17 @@ a:hover {
 .menu-box a:hover {
   color: #8fffd3;
 }
+.hero-description {
+  max-width: 800px;
+  margin: 30px auto;
+  font-family: 'DM Serif Text', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #d0d0d0;
+  text-align: center;
+  padding: 0 20px;
+}
+
 /* === Font Style Helpers === */
 .font-cinzel {
   font-family: 'Cinzel', serif;
